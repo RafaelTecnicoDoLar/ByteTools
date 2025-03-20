@@ -6,10 +6,12 @@
 
 }
 
-.DropdownNavBar {
+.DropdownNavBar .nav-link{
+    display: flex;
+    align-items: center;
     background-color: transparent;
-    color: var(--cor-letra);
-    
+    color: var(--cor-letra) !important;
+    border: none !important;
 }
 
 .OtherNavBar {

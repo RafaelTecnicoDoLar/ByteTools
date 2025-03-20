@@ -23,7 +23,7 @@ body{
 }
 
 .LinkStyle {
-  color: var(--cor-letra);
+  color: var(--cor-letra) !important;
   text-align: center;
   font-size: 130%;
   padding: 0.5rem 1rem 0.5rem 1rem;

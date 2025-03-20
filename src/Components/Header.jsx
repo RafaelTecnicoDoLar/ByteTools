@@ -23,21 +23,22 @@ export default function Header() {
                 <Container>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link className="LinkStyle ButtonAnimation" href={"/"}>Home</Nav.Link>
-                            <Nav.Link className="LinkStyle ButtonAnimation" href={"/contato"}>Contato</Nav.Link>
-                            <Nav.Link className="LinkStyle ButtonAnimation" href={"/sobre"}>sobre</Nav.Link>
-                            <Nav.Link className="LinkStyle ButtonAnimation" href={"/faq"}>FAQ</Nav.Link>
+                        <Nav className="me-auto OtherNavBar">
+                            <Nav.Link className="LinkStyle ButtonAnimation" href="/">Home</Nav.Link>
+                            <Nav.Link className="LinkStyle ButtonAnimation" href="/ofertas">Ofertas</Nav.Link>
+                            <Nav.Link className="LinkStyle ButtonAnimation" href="/contato">Contato</Nav.Link>
+                            <Nav.Link className="LinkStyle ButtonAnimation" href="/sobre">sobre</Nav.Link>
+                            <Nav.Link className="LinkStyle ButtonAnimation" href="/faq">FAQ</Nav.Link>
 
-                            <NavDropdown className="DropdownNavBar" title="Produtos" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Manutenção e Reparo</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Peças e Componentes</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Ferramentas para Diagnóstico</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.4">Organização e Montagem</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.5">Resfriamento e Ventilação</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.6">Energia e Proteção</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.7">Redes e Conectividade</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.8">Periféricos e Acessórios</NavDropdown.Item>
+                            <NavDropdown className="LinkStyle DropdownNavBar" title="Produtos" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/produtos/manutencao-e-reparo">Manutenção e Reparo</NavDropdown.Item>
+                                <NavDropdown.Item href="/produtos/pecas-e-componentes">Peças e Componentes</NavDropdown.Item>
+                                <NavDropdown.Item href="/produtos/ferramentas-para-diagnostico">Ferramentas para Diagnóstico</NavDropdown.Item>
+                                <NavDropdown.Item href="/produtos/organizacao-e-montagem">Organização e Montagem</NavDropdown.Item>
+                                <NavDropdown.Item href="/produtos/resfriamento-e-ventilacao">Resfriamento e Ventilação</NavDropdown.Item>
+                                <NavDropdown.Item href="/produtos/energia-e-protecao">Energia e Proteção</NavDropdown.Item>
+                                <NavDropdown.Item href="/produtos/redes-e-conectividade">Redes e Conectividade</NavDropdown.Item>
+                                <NavDropdown.Item href="/produtos/perifericos-e-acessorios">Periféricos e Acessórios</NavDropdown.Item>
                             </NavDropdown>
 
                         </Nav>
