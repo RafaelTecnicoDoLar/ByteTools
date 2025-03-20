@@ -1,3 +1,32 @@
-.Home{
-    
+.Container_Carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: auto;
+
+}
+
+.carousel {
+    overflow: visible;
+}
+
+.carousel-control-prev {
+    left: -10%;
+    /* Move a seta da esquerda para fora */
+}
+
+.carousel-control-next {
+    right: -10%;
+    /* Move a seta da direita para fora */
+}
+
+.sale {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color: black;
+    margin: 1.5% 10% 1.5% 10%; 
+
 }
