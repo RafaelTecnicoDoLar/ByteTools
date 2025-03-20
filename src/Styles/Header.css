@@ -1,13 +1,19 @@
 .HeaderStyle {
     background-color: var(--roxo-principal);
     display: flex;
-    justify-content: space-around;
-    padding: 1% 0% 1% 0%;
+    justify-content: space-evenly;
+    padding: 1% 2% 1% 2%;
+
 }
 
-.NavBar{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.DropdownNavBar {
+    background-color: transparent;
+    color: var(--cor-letra);
     
+}
+
+.OtherNavBar {
+    display: flex;
+    align-items: center;
+
 }
